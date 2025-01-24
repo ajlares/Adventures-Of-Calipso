@@ -552,6 +552,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e065de4213f676840b2e5658808f0129, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  globalSpeed: 1
+  speedUpdateTime: 5
+  indexTime: 0
 --- !u!1 &803140427
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,7 +672,7 @@ MonoBehaviour:
   maxOxigen: 10
   aCtualOxigen: 10
   useOxigenTime: 1
-  Speed: 1
+  Speed: 3
 --- !u!114 &1387975305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -810,7 +813,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9344320f5657c2147802bb5860627c7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
 --- !u!50 &1387975310
 Rigidbody2D:
   serializedVersion: 5

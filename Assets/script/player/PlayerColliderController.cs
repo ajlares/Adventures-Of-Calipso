@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class PlayerColliderController : MonoBehaviour
 {
-    [SerializeField] private float speed;
     void Start()
     {
         
