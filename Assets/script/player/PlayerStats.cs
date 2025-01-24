@@ -1,4 +1,4 @@
-using Unity.Mathematics;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
@@ -6,9 +6,10 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] float maxHealth;
     [SerializeField] float actualHealth;
     [SerializeField] float maxOxigen;
-    [SerializeField] float aCtualOxigen;
+    [SerializeField] float actualOxigen;
     [SerializeField] float useOxigenTime;
     [SerializeField] public float Speed;
+    [SerializeField] public bool canTakeDamage;
 
     public static PlayerStats instance;
     private void Awake() 
@@ -25,6 +26,7 @@ public class PlayerStats : MonoBehaviour
     private void Start()
     {
         InvokeRepeating("UseOxigen",useOxigenTime,1);
+        actualOxigen = maxOxigen;
     }
     private void Update() 
     {
@@ -32,11 +34,28 @@ public class PlayerStats : MonoBehaviour
     }
     private void UseOxigen()
     {
-        aCtualOxigen--;
-        if(aCtualOxigen < 0)
+        actualOxigen--;
+        if(actualOxigen < 0)
         {
-            aCtualOxigen =0;
+            actualOxigen =0;
             actualHealth--;
         }
     }
+    public void AddOxigen(int valeu)
+    {
+        actualOxigen += valeu;
+        if(actualOxigen > maxOxigen)
+        {
+            actualOxigen = maxOxigen;
+        }
+    }
+    public void TakeDamage()
+    {
+        canTakeDamage = false;  
+    }
+    IEnumerator DamageCoolDOwn()
+    {
+        yield return null;
+    }
+
 }

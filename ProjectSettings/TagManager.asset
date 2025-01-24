@@ -7,6 +7,7 @@ TagManager:
   - Bubble
   - Wall
   - Obstacle
+  - border
   layers:
   - Default
   - TransparentFX
