@@ -8,7 +8,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] float maxOxigen;
     [SerializeField] float aCtualOxigen;
     [SerializeField] float useOxigenTime;
-    [SerializeField] float Speed;
+    [SerializeField] public float Speed;
 
     public static PlayerStats instance;
     private void Awake() 
