@@ -21,6 +21,10 @@ public class PlayerColliderController : MonoBehaviour
         if( other.gameObject.CompareTag("Obstacle"))
         {
             Debug.Log(" daño");
+            if(PlayerStats.instance.canTakeDamage)
+            {
+                PlayerStats.instance.TakeDamage();
+            }
         }    
     }
 }

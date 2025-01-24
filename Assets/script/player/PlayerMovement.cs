@@ -8,10 +8,9 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-                // Obtener el input del teclado en los ejes horizontal y vertical
+        // Obtener el input del teclado en los ejes horizontal y vertical
         float movimientoX = Input.GetAxis("Horizontal"); // Eje X (A/D o Flechas Izquierda/Derecha)
         float movimientoY = Input.GetAxis("Vertical");   // Eje Y (W/S o Flechas Arriba/Abajo)
-
         // Crear un vector de movimiento
         Vector2 movimiento = new Vector2(movimientoX, movimientoY);
 
