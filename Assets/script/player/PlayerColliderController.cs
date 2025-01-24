@@ -7,6 +7,10 @@ public class PlayerColliderController : MonoBehaviour
         if( other.gameObject.CompareTag("border"))
         {
             Debug.Log(" toco el borde parce");
+            if(PlayerStats.instance.canTakeDamage)
+            {
+                PlayerStats.instance.TakeDamage();
+            }
         }    
         if( other.gameObject.CompareTag("Bubble"))
         {

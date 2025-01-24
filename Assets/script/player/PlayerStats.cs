@@ -1,4 +1,4 @@
-using Unity.Mathematics;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
@@ -9,6 +9,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] float actualOxigen;
     [SerializeField] float useOxigenTime;
     [SerializeField] public float Speed;
+    [SerializeField] public bool canTakeDamage;
 
     public static PlayerStats instance;
     private void Awake() 
@@ -48,4 +49,13 @@ public class PlayerStats : MonoBehaviour
             actualOxigen = maxOxigen;
         }
     }
+    public void TakeDamage()
+    {
+        canTakeDamage = false;  
+    }
+    IEnumerator DamageCoolDOwn()
+    {
+        yield return null;
+    }
+
 }
