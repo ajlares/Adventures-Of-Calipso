@@ -51,11 +51,13 @@ public class PlayerStats : MonoBehaviour
     }
     public void TakeDamage()
     {
-        canTakeDamage = false;  
+        canTakeDamage = false;
+        Debug.Log("callanimation");
+        gameObject.GetComponent<Animator>().SetTrigger("Damage"); 
     }
-    IEnumerator DamageCoolDOwn()
+    public void ResetDamage()
     {
-        yield return null;
+        canTakeDamage = true;  
     }
 
 }

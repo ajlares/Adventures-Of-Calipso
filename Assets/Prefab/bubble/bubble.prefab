@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7760412827857353503}
   - component: {fileID: 3211109537758353390}
   - component: {fileID: 1382699448790799572}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: bubble
   m_TagString: Bubble
   m_Icon: {fileID: 0}
@@ -103,7 +103,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c22202404fc63e84b9602848ad1701c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oxigenAcount: 0
+  oxigenAcount: 5
+  anim: {fileID: 1382699448790799572}
+  CC: {fileID: 7760412827857353503}
 --- !u!58 &7760412827857353503
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -120,7 +122,7 @@ CircleCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 192
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
