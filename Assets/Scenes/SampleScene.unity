@@ -382,14 +382,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751814313}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e065de4213f676840b2e5658808f0129, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   globalSpeed: 1
   speedUpdateTime: 5
-  indexTime: 0
 --- !u!1 &803140427
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,6 +467,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 10}
   m_EdgeRadius: 0
+--- !u!95 &880229273 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1382699448790799572, guid: 32589cbd96222f1429b94e6661da7155, type: 3}
+  m_PrefabInstance: {fileID: 7768850201432527343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &880229275 stripped
+CircleCollider2D:
+  m_CorrespondingSourceObject: {fileID: 7760412827857353503, guid: 32589cbd96222f1429b94e6661da7155, type: 3}
+  m_PrefabInstance: {fileID: 7768850201432527343}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1454617534
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,6 +567,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: bubble
       objectReference: {fileID: 0}
+    - target: {fileID: 4875902813890457881, guid: 32589cbd96222f1429b94e6661da7155, type: 3}
+      propertyPath: CC
+      value: 
+      objectReference: {fileID: 880229275}
+    - target: {fileID: 4875902813890457881, guid: 32589cbd96222f1429b94e6661da7155, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 880229273}
     - target: {fileID: 4875902813890457881, guid: 32589cbd96222f1429b94e6661da7155, type: 3}
       propertyPath: oxigenAcount
       value: 5

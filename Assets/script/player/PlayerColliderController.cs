@@ -16,7 +16,8 @@ public class PlayerColliderController : MonoBehaviour
         {
             Debug.Log(" burbuja");
             PlayerStats.instance.AddOxigen(other.gameObject.GetComponent<bubble>().oxigenAcount);
-            Destroy(other.gameObject);
+            other.gameObject.GetComponent<bubble>().setanim();
+            //Destroy(other.gameObject);
         }    
         if( other.gameObject.CompareTag("Obstacle"))
         {
