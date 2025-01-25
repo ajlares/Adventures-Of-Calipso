@@ -21,7 +21,7 @@ public class PlayerColliderController : MonoBehaviour
         {
             if(PlayerStats.instance.canTakeDamage)
             {
-                other.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+                other.gameObject.GetComponent<CircleCollider2D>().enabled = false;
                 PlayerStats.instance.TakeDamage();
             }
         }    
