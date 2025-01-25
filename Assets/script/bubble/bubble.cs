@@ -1,4 +1,6 @@
 using UnityEngine;
+using Unity.Mathematics;
+using Random = UnityEngine.Random;
 
 public class bubble : MonoBehaviour
 {

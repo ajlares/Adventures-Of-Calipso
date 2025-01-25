@@ -38,4 +38,8 @@ public class GameManager : MonoBehaviour
         globalSpeed++;
         PlayerStats.instance.Speed++;
     }
+    public void stopTime()
+    {
+        Time.timeScale = 0;
+    }
 }

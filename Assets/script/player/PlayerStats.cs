@@ -10,6 +10,8 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] float useOxigenTime;
     [SerializeField] public float Speed;
     [SerializeField] public bool canTakeDamage;
+    [SerializeField] private bool canDrown;
+    [SerializeField] private float drownDelay;
 
     public static PlayerStats instance;
     private void Awake() 
@@ -37,8 +39,12 @@ public class PlayerStats : MonoBehaviour
         actualOxigen--;
         if(actualOxigen < 0)
         {
-            actualOxigen =0;
-            actualHealth--;
+            actualOxigen = 0;
+            if(canDrown)
+            {
+                TakeDamage();
+                StartCoroutine(DrownDelay());
+            }
         }
     }
     public void AddOxigen(int valeu)
@@ -49,15 +55,28 @@ public class PlayerStats : MonoBehaviour
             actualOxigen = maxOxigen;
         }
     }
+
     public void TakeDamage()
     {
-        canTakeDamage = false;
-        Debug.Log("callanimation");
+        canTakeDamage = false;;
+        actualHealth--;
+        UIManager.instance.updateLife();
         gameObject.GetComponent<Animator>().SetTrigger("Damage"); 
+        if(actualHealth < 1)
+        {
+            // the player is death
+            Time.timeScale =0;
+        }
     }
     public void ResetDamage()
     {
         canTakeDamage = true;  
+    }
+
+    IEnumerator DrownDelay()
+    {
+        yield return new WaitForSeconds(drownDelay);
+        canDrown = true;
     }
 
 }
