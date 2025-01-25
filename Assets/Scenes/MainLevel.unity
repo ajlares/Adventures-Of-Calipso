@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 774687482}
   m_Layer: 0
   m_Name: botBorder
-  m_TagString: Untagged
+  m_TagString: bubleBorder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -447,7 +447,7 @@ GameObject:
   - component: {fileID: 1160192782}
   m_Layer: 0
   m_Name: topBorder
-  m_TagString: Untagged
+  m_TagString: bubleBorder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -627,7 +627,15 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4450160425993549747, guid: bc3003bf4c619cc4389348f27aadfb9e, type: 3}
+      propertyPath: maxHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450160425993549747, guid: bc3003bf4c619cc4389348f27aadfb9e, type: 3}
       propertyPath: drownDelay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450160425993549747, guid: bc3003bf4c619cc4389348f27aadfb9e, type: 3}
+      propertyPath: actualHealth
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8685347005258420773, guid: bc3003bf4c619cc4389348f27aadfb9e, type: 3}
