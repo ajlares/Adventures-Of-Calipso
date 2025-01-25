@@ -6,7 +6,6 @@ public class PlayerColliderController : MonoBehaviour
     {
         if( other.gameObject.CompareTag("border"))
         {
-            Debug.Log(" toco el borde parce");
             if(PlayerStats.instance.canTakeDamage)
             {
                 PlayerStats.instance.TakeDamage();
@@ -16,13 +15,13 @@ public class PlayerColliderController : MonoBehaviour
         {
             Debug.Log(" burbuja");
             PlayerStats.instance.AddOxigen(other.gameObject.GetComponent<bubble>().oxigenAcount);
-            Destroy(other.gameObject);
+            other.gameObject.GetComponent<bubble>().setanim();
         }    
         if( other.gameObject.CompareTag("Obstacle"))
         {
-            Debug.Log(" daño");
             if(PlayerStats.instance.canTakeDamage)
             {
+                other.gameObject.GetComponent<BoxCollider2D>().enabled = false;
                 PlayerStats.instance.TakeDamage();
             }
         }    
