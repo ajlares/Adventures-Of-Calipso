@@ -11,7 +11,7 @@ public class Timer : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        bestTime = PlayerPrefs.GetFloat("BestTime", 43200f);
+        bestTime = PlayerPrefs.GetFloat("BestTime", 0f);
         bestTimeDisplay.text = SetTimeFormat(bestTime);
         time = 0;
         timerDisplay.text = SetTimeFormat(time);
@@ -35,7 +35,7 @@ public class Timer : MonoBehaviour
 
     public void SaveTime()
     {
-        if (bestTime > time) 
+        if (bestTime < time) 
         { 
             PlayerPrefs.SetFloat("BestTime",time);
         }
