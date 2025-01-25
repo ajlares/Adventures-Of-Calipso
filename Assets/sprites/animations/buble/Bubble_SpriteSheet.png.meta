@@ -1,0 +1,731 @@
+fileFormatVersion: 2
+guid: 54875584894ba77448b4aefc322b6f68
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2627734771449720779
+    second: Bubble_SpriteSheet_0
+  - first:
+      213: -6214310612985519866
+    second: Bubble_SpriteSheet_1
+  - first:
+      213: -2439471681629513778
+    second: Bubble_SpriteSheet_2
+  - first:
+      213: 5187858591676075216
+    second: Bubble_SpriteSheet_3
+  - first:
+      213: 110265890273497401
+    second: Bubble_SpriteSheet_4
+  - first:
+      213: 4538201653594538096
+    second: Bubble_SpriteSheet_5
+  - first:
+      213: -113918675818799893
+    second: Bubble_SpriteSheet_6
+  - first:
+      213: 4343229262710708702
+    second: Bubble_SpriteSheet_7
+  - first:
+      213: 2653661042666214064
+    second: Bubble_SpriteSheet_8
+  - first:
+      213: 7548702311270672412
+    second: Bubble_SpriteSheet_9
+  - first:
+      213: 9208330921615822526
+    second: Bubble_SpriteSheet_10
+  - first:
+      213: -1250552095050505142
+    second: Bubble_SpriteSheet_11
+  - first:
+      213: 6235994879041813004
+    second: Bubble_SpriteSheet_12
+  - first:
+      213: -506785729492937893
+    second: Bubble_SpriteSheet_13
+  - first:
+      213: 4680127004026735577
+    second: Bubble_SpriteSheet_14
+  - first:
+      213: -5243417119876704696
+    second: Bubble_SpriteSheet_15
+  - first:
+      213: 8191831094975070257
+    second: Bubble_SpriteSheet_16
+  - first:
+      213: -5312936600825357831
+    second: Bubble_SpriteSheet_17
+  - first:
+      213: -6629097603066644553
+    second: Bubble_SpriteSheet_18
+  - first:
+      213: -8119004372931085580
+    second: Bubble_SpriteSheet_19
+  - first:
+      213: 5350086715236851393
+    second: Bubble_SpriteSheet_20
+  - first:
+      213: 2816705991954716589
+    second: Bubble_SpriteSheet_21
+  - first:
+      213: 3214803202444362758
+    second: Bubble_SpriteSheet_22
+  - first:
+      213: 9181511052151596975
+    second: Bubble_SpriteSheet_23
+  - first:
+      213: 6786360787586690188
+    second: Bubble_SpriteSheet_24
+  - first:
+      213: -3711844097994315820
+    second: Bubble_SpriteSheet_25
+  - first:
+      213: 6813539399908042949
+    second: Bubble_SpriteSheet_26
+  - first:
+      213: 5888783461503047756
+    second: Bubble_SpriteSheet_27
+  - first:
+      213: -3074506861239426567
+    second: Bubble_SpriteSheet_28
+  - first:
+      213: 6128073869487563005
+    second: Bubble_SpriteSheet_29
+  - first:
+      213: -4343925310327869993
+    second: Bubble_SpriteSheet_30
+  - first:
+      213: 8816345493462176052
+    second: Bubble_SpriteSheet_31
+  - first:
+      213: -8722602733003570323
+    second: Bubble_SpriteSheet_32
+  - first:
+      213: -1730538117034567816
+    second: Bubble_SpriteSheet_33
+  - first:
+      213: 2550879743808295843
+    second: Bubble_SpriteSheet_34
+  - first:
+      213: 4768699056105360412
+    second: Bubble_SpriteSheet_35
+  - first:
+      213: 1457295998501540313
+    second: Bubble_SpriteSheet_36
+  - first:
+      213: -8257914271600278413
+    second: Bubble_SpriteSheet_37
+  - first:
+      213: -5039599598536440838
+    second: Bubble_SpriteSheet_38
+  - first:
+      213: -3905401794486823711
+    second: Bubble_SpriteSheet_39
+  - first:
+      213: -3452243742277639864
+    second: Bubble_SpriteSheet_40
+  - first:
+      213: -519791824566155735
+    second: Bubble_SpriteSheet_41
+  - first:
+      213: -3133061545338717836
+    second: Bubble_SpriteSheet_42
+  - first:
+      213: 6457844170062186801
+    second: Bubble_SpriteSheet_43
+  - first:
+      213: 6075677750916169056
+    second: Bubble_SpriteSheet_44
+  - first:
+      213: 5302666592474543896
+    second: Bubble_SpriteSheet_45
+  - first:
+      213: -8986088245528860821
+    second: Bubble_SpriteSheet_46
+  - first:
+      213: 3307638810957775061
+    second: Bubble_SpriteSheet_47
+  - first:
+      213: 2815250943972857001
+    second: Bubble_SpriteSheet_48
+  - first:
+      213: 8673955687523159414
+    second: Bubble_SpriteSheet_49
+  - first:
+      213: 2581242700649321743
+    second: Bubble_SpriteSheet_50
+  - first:
+      213: 7186389481556210536
+    second: Bubble_SpriteSheet_51
+  - first:
+      213: 1993141396169770688
+    second: Bubble_SpriteSheet_52
+  - first:
+      213: -6711564978832034399
+    second: Bubble_SpriteSheet_53
+  - first:
+      213: -3615580401044340012
+    second: Bubble_SpriteSheet_54
+  - first:
+      213: -3675145427703222985
+    second: Bubble_SpriteSheet_55
+  - first:
+      213: 8772801359017968673
+    second: Bubble_SpriteSheet_56
+  - first:
+      213: 3565390293193195951
+    second: Bubble_SpriteSheet_57
+  - first:
+      213: -2495546436527489794
+    second: Bubble_SpriteSheet_58
+  - first:
+      213: -506146454121559854
+    second: Bubble_SpriteSheet_59
+  - first:
+      213: -7898906591378902356
+    second: Bubble_SpriteSheet_60
+  - first:
+      213: 8341405199378285797
+    second: Bubble_SpriteSheet_61
+  - first:
+      213: 3242823245049290132
+    second: Bubble_SpriteSheet_62
+  - first:
+      213: 6387583162655495866
+    second: Bubble_SpriteSheet_63
+  - first:
+      213: -652717863827846851
+    second: Bubble_SpriteSheet_64
+  - first:
+      213: -4693770680984977476
+    second: Bubble_SpriteSheet_65
+  - first:
+      213: 8385909509501459283
+    second: Bubble_SpriteSheet_66
+  - first:
+      213: -6507363629028871527
+    second: Bubble_SpriteSheet_67
+  - first:
+      213: 3068802656475497880
+    second: Bubble_SpriteSheet_68
+  - first:
+      213: 2358871110465363442
+    second: Bubble_SpriteSheet_69
+  - first:
+      213: -8400602399300013989
+    second: Bubble_SpriteSheet_70
+  - first:
+      213: -5294236413992933783
+    second: Bubble_SpriteSheet_71
+  - first:
+      213: 6107120162740073425
+    second: Bubble_SpriteSheet_72
+  - first:
+      213: -4507945743391366098
+    second: Bubble_SpriteSheet_73
+  - first:
+      213: -8695705806156008342
+    second: Bubble_SpriteSheet_74
+  - first:
+      213: 6808495202873007295
+    second: Bubble_SpriteSheet_75
+  - first:
+      213: -3574071758336032431
+    second: Bubble_SpriteSheet_76
+  - first:
+      213: 5661932377191717287
+    second: Bubble_SpriteSheet_77
+  - first:
+      213: -1730425177677315800
+    second: Bubble_SpriteSheet_78
+  - first:
+      213: -6951891620470432612
+    second: Bubble_SpriteSheet_79
+  - first:
+      213: 93350847322531615
+    second: Bubble_SpriteSheet_80
+  - first:
+      213: -7205026776627797211
+    second: Bubble_SpriteSheet_81
+  - first:
+      213: -2625082463652491593
+    second: Bubble_SpriteSheet_82
+  - first:
+      213: 4355163560355605056
+    second: Bubble_SpriteSheet_83
+  - first:
+      213: -7508613894533872496
+    second: Bubble_SpriteSheet_84
+  - first:
+      213: 4409669987599188919
+    second: Bubble_SpriteSheet_85
+  - first:
+      213: -4546842907043828832
+    second: Bubble_SpriteSheet_86
+  - first:
+      213: 8087595044735182054
+    second: Bubble_SpriteSheet_87
+  - first:
+      213: 6193746896850655455
+    second: Bubble_SpriteSheet_88
+  - first:
+      213: 3456751399954085210
+    second: Bubble_SpriteSheet_89
+  - first:
+      213: 1202422058278335719
+    second: Bubble_SpriteSheet_90
+  - first:
+      213: 6960131717078325701
+    second: Bubble_SpriteSheet_91
+  - first:
+      213: -5385752617102093723
+    second: Bubble_SpriteSheet_92
+  - first:
+      213: -2401865166779039635
+    second: Bubble_SpriteSheet_93
+  - first:
+      213: -1584263671492294743
+    second: Bubble_SpriteSheet_94
+  - first:
+      213: -3976015409083685545
+    second: Bubble_SpriteSheet_95
+  - first:
+      213: -7726271119499317783
+    second: Bubble_SpriteSheet_96
+  - first:
+      213: 1071242295984153307
+    second: Bubble_SpriteSheet_97
+  - first:
+      213: -2948939592636623784
+    second: Bubble_SpriteSheet_98
+  - first:
+      213: 6266297676173195311
+    second: Bubble_SpriteSheet_99
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bubble_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 388
+        width: 1339
+        height: 1338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfe3303ad6977420800000000000000
+      internalID: 2627734771449720779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 10563
+        y: 384
+        width: 1350
+        height: 1342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601ee0d1c6552c9a0800000000000000
+      internalID: -6214310612985519866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 388
+        width: 1351
+        height: 1354
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe08257f209acf70800000000000000
+      internalID: 9208330921615822526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 4405
+        y: 388
+        width: 1355
+        height: 1347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa79950a80835f80800000000000000
+      internalID: -8119004372931085580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 6468
+        y: 388
+        width: 1342
+        height: 1351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431ddeae383f95a70800000000000000
+      internalID: 8816345493462176052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 8508
+        y: 391
+        width: 1350
+        height: 1342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87791e750c4ebf7e0800000000000000
+      internalID: -1730538117034567816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_SpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 12677
+        y: 383
+        width: 1288
+        height: 1345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82838642720230e4f817fdf38deb1ada
+      internalID: 1089309860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_SpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 14729
+        y: 383
+        width: 1288
+        height: 1345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d7eb12debeb4244b6e157b77d1b892
+      internalID: 166621455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_SpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 16780
+        y: 380
+        width: 1288
+        height: 1345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482af0e974597af4d918e645025c8c8f
+      internalID: -880783902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 69ddfc8ff1335c6468320576dd9eecdc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bubble_SpriteSheet_0: 2627734771449720779
+      Bubble_SpriteSheet_1: -6214310612985519866
+      Bubble_SpriteSheet_10: 9208330921615822526
+      Bubble_SpriteSheet_100: 1089309860
+      Bubble_SpriteSheet_101: 166621455
+      Bubble_SpriteSheet_102: -880783902
+      Bubble_SpriteSheet_11: -1250552095050505142
+      Bubble_SpriteSheet_12: 6235994879041813004
+      Bubble_SpriteSheet_13: -506785729492937893
+      Bubble_SpriteSheet_14: 4680127004026735577
+      Bubble_SpriteSheet_15: -5243417119876704696
+      Bubble_SpriteSheet_16: 8191831094975070257
+      Bubble_SpriteSheet_17: -5312936600825357831
+      Bubble_SpriteSheet_18: -6629097603066644553
+      Bubble_SpriteSheet_19: -8119004372931085580
+      Bubble_SpriteSheet_2: -2439471681629513778
+      Bubble_SpriteSheet_20: 5350086715236851393
+      Bubble_SpriteSheet_21: 2816705991954716589
+      Bubble_SpriteSheet_22: 3214803202444362758
+      Bubble_SpriteSheet_23: 9181511052151596975
+      Bubble_SpriteSheet_24: 6786360787586690188
+      Bubble_SpriteSheet_25: -3711844097994315820
+      Bubble_SpriteSheet_26: 6813539399908042949
+      Bubble_SpriteSheet_27: 5888783461503047756
+      Bubble_SpriteSheet_28: -3074506861239426567
+      Bubble_SpriteSheet_29: 6128073869487563005
+      Bubble_SpriteSheet_3: 5187858591676075216
+      Bubble_SpriteSheet_30: -4343925310327869993
+      Bubble_SpriteSheet_31: 8816345493462176052
+      Bubble_SpriteSheet_32: -8722602733003570323
+      Bubble_SpriteSheet_33: -1730538117034567816
+      Bubble_SpriteSheet_34: 2550879743808295843
+      Bubble_SpriteSheet_35: 4768699056105360412
+      Bubble_SpriteSheet_36: 1457295998501540313
+      Bubble_SpriteSheet_37: -8257914271600278413
+      Bubble_SpriteSheet_38: -5039599598536440838
+      Bubble_SpriteSheet_39: -3905401794486823711
+      Bubble_SpriteSheet_4: 110265890273497401
+      Bubble_SpriteSheet_40: -3452243742277639864
+      Bubble_SpriteSheet_41: -519791824566155735
+      Bubble_SpriteSheet_42: -3133061545338717836
+      Bubble_SpriteSheet_43: 6457844170062186801
+      Bubble_SpriteSheet_44: 6075677750916169056
+      Bubble_SpriteSheet_45: 5302666592474543896
+      Bubble_SpriteSheet_46: -8986088245528860821
+      Bubble_SpriteSheet_47: 3307638810957775061
+      Bubble_SpriteSheet_48: 2815250943972857001
+      Bubble_SpriteSheet_49: 8673955687523159414
+      Bubble_SpriteSheet_5: 4538201653594538096
+      Bubble_SpriteSheet_50: 2581242700649321743
+      Bubble_SpriteSheet_51: 7186389481556210536
+      Bubble_SpriteSheet_52: 1993141396169770688
+      Bubble_SpriteSheet_53: -6711564978832034399
+      Bubble_SpriteSheet_54: -3615580401044340012
+      Bubble_SpriteSheet_55: -3675145427703222985
+      Bubble_SpriteSheet_56: 8772801359017968673
+      Bubble_SpriteSheet_57: 3565390293193195951
+      Bubble_SpriteSheet_58: -2495546436527489794
+      Bubble_SpriteSheet_59: -506146454121559854
+      Bubble_SpriteSheet_6: -113918675818799893
+      Bubble_SpriteSheet_60: -7898906591378902356
+      Bubble_SpriteSheet_61: 8341405199378285797
+      Bubble_SpriteSheet_62: 3242823245049290132
+      Bubble_SpriteSheet_63: 6387583162655495866
+      Bubble_SpriteSheet_64: -652717863827846851
+      Bubble_SpriteSheet_65: -4693770680984977476
+      Bubble_SpriteSheet_66: 8385909509501459283
+      Bubble_SpriteSheet_67: -6507363629028871527
+      Bubble_SpriteSheet_68: 3068802656475497880
+      Bubble_SpriteSheet_69: 2358871110465363442
+      Bubble_SpriteSheet_7: 4343229262710708702
+      Bubble_SpriteSheet_70: -8400602399300013989
+      Bubble_SpriteSheet_71: -5294236413992933783
+      Bubble_SpriteSheet_72: 6107120162740073425
+      Bubble_SpriteSheet_73: -4507945743391366098
+      Bubble_SpriteSheet_74: -8695705806156008342
+      Bubble_SpriteSheet_75: 6808495202873007295
+      Bubble_SpriteSheet_76: -3574071758336032431
+      Bubble_SpriteSheet_77: 5661932377191717287
+      Bubble_SpriteSheet_78: -1730425177677315800
+      Bubble_SpriteSheet_79: -6951891620470432612
+      Bubble_SpriteSheet_8: 2653661042666214064
+      Bubble_SpriteSheet_80: 93350847322531615
+      Bubble_SpriteSheet_81: -7205026776627797211
+      Bubble_SpriteSheet_82: -2625082463652491593
+      Bubble_SpriteSheet_83: 4355163560355605056
+      Bubble_SpriteSheet_84: -7508613894533872496
+      Bubble_SpriteSheet_85: 4409669987599188919
+      Bubble_SpriteSheet_86: -4546842907043828832
+      Bubble_SpriteSheet_87: 8087595044735182054
+      Bubble_SpriteSheet_88: 6193746896850655455
+      Bubble_SpriteSheet_89: 3456751399954085210
+      Bubble_SpriteSheet_9: 7548702311270672412
+      Bubble_SpriteSheet_90: 1202422058278335719
+      Bubble_SpriteSheet_91: 6960131717078325701
+      Bubble_SpriteSheet_92: -5385752617102093723
+      Bubble_SpriteSheet_93: -2401865166779039635
+      Bubble_SpriteSheet_94: -1584263671492294743
+      Bubble_SpriteSheet_95: -3976015409083685545
+      Bubble_SpriteSheet_96: -7726271119499317783
+      Bubble_SpriteSheet_97: 1071242295984153307
+      Bubble_SpriteSheet_98: -2948939592636623784
+      Bubble_SpriteSheet_99: 6266297676173195311
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,7 +4,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private float globalSpeed;
     [SerializeField] private float speedUpdateTime;
-    [SerializeField] private float indexTime;
+    private float indexTime;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
