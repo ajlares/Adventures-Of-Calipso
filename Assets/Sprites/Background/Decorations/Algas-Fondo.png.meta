@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: f2d8e6402c10f1b4fac26701fc3226ce
+guid: 9bc8e3d96d842bc409af738a7fee4c58
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5137066164672467685
-    second: IMG_2631_0
+      213: 1140265307237660301
+    second: Algas-Fondo_0
+  - first:
+      213: 6518860033185142165
+    second: Algas-Fondo_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,11 +49,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.4257961, y: 0.04838712}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -113,23 +116,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_2631_0
+      name: Algas-Fondo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 719
-        height: 556
+        x: 234
+        y: 27
+        width: 144
+        height: 683
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e21bfc95768a4740800000000000000
-      internalID: 5137066164672467685
+      spriteID: d863a9b614903df00800000000000000
+      internalID: 1140265307237660301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Algas-Fondo_1
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 32
+        width: 116
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595dd7a69a4a77a50800000000000000
+      internalID: 6518860033185142165
       vertices: []
       indices: 
       edges: []
@@ -138,8 +163,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
-    internalID: 0
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IMG_2631_0: 5137066164672467685
+      Algas-Fondo_0: 1140265307237660301
+      Algas-Fondo_1: 6518860033185142165
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
