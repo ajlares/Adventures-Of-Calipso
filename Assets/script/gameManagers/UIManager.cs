@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
     [SerializeField] private List<GameObject> BGImages;
+    [SerializeField] private List<GameObject> bubbles;
     public static UIManager instance;
     private void Awake() 
     {
@@ -25,6 +25,17 @@ public class UIManager : MonoBehaviour
     }
     public void updateOxigen()
     {
-
+        float index = PlayerStats.instance.maxOxigen - PlayerStats.instance.actualOxigen;
+        for(int i = 0; i < 10;i++)
+        {
+            if(i<index)
+            {
+                bubbles[i].SetActive(false);
+            }
+            else
+            {
+                bubbles[i].SetActive(true);
+            }
+        }
     }
 }

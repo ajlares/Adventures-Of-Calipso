@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8879e4056f1d39248aaa0443da4a56aa, type: 3}
+  m_Name: SwimSoundContainer
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: ae3301c9978e8e14282f3bff78864d02, type: 3}
+  - {fileID: 8300000, guid: 5c89d5238e61a8240a07bab676e686d4, type: 3}
+  - {fileID: 8300000, guid: daef22b7df6dc604795a0ed9128ab8c0, type: 3}
+  - {fileID: 8300000, guid: 374216e21c3e6f942ad163ab9d44f23b, type: 3}
+  - {fileID: 8300000, guid: 61b8a120a5cb1484586976b43f30e2a4, type: 3}
+  - {fileID: 8300000, guid: 3d214000e08160f4d8605b715fc4f854, type: 3}
+  - {fileID: 8300000, guid: 55738f4521588594981a083f82a56f1d, type: 3}
+  - {fileID: 8300000, guid: ed8b54af33daeb747936075fdccd01aa, type: 3}
+  - {fileID: 8300000, guid: 959b881c4b2bd5d43887221de63f845c, type: 3}
+  - {fileID: 8300000, guid: 5c1507e23d2d9d8499d3d1ef135637b2, type: 3}
