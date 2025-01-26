@@ -11,6 +11,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] public float Speed;
     [SerializeField] public bool canTakeDamage;
     [SerializeField] private bool canDrown;
+    [SerializeField] private bool canMove;
     [SerializeField] private float drownDelay;
 
     public static PlayerStats instance;
