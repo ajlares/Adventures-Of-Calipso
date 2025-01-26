@@ -5,8 +5,8 @@ public class PlayerStats : MonoBehaviour
 {
     [SerializeField] public int maxHealth;
     [SerializeField] public int actualHealth;
-    [SerializeField] float maxOxigen;
-    [SerializeField] float actualOxigen;
+    [SerializeField] public float maxOxigen;
+    [SerializeField] public float actualOxigen;
     [SerializeField] float useOxigenTime;
     [SerializeField] public float Speed;
     [SerializeField] public bool canTakeDamage;
@@ -28,8 +28,8 @@ public class PlayerStats : MonoBehaviour
     }
     private void Start()
     {
-        InvokeRepeating("UseOxigen",useOxigenTime,1);
         actualOxigen = maxOxigen;
+        StartCoroutine(oxigenDelay());
     }
     private void Update() 
     {
@@ -47,6 +47,8 @@ public class PlayerStats : MonoBehaviour
                 StartCoroutine(DrownDelay());
             }
         }
+        StartCoroutine(oxigenDelay());
+        UIManager.instance.updateOxigen();
     }
     public void AddOxigen(int valeu)
     {
@@ -55,6 +57,7 @@ public class PlayerStats : MonoBehaviour
         {
             actualOxigen = maxOxigen;
         }
+        UIManager.instance.updateOxigen();
     }
 
     public void TakeDamage()
@@ -66,6 +69,7 @@ public class PlayerStats : MonoBehaviour
         if(actualHealth < 1)
         {
             // the player is death
+            Timer.instance.SaveTime();
             Time.timeScale =0;
         }
     }
@@ -74,10 +78,16 @@ public class PlayerStats : MonoBehaviour
         canTakeDamage = true;  
     }
 
+    IEnumerator oxigenDelay()
+    {
+        yield return new WaitForSeconds(useOxigenTime);
+        UseOxigen();
+    }
     IEnumerator DrownDelay()
     {
         yield return new WaitForSeconds(drownDelay);
         canDrown = true;
     }
+
 
 }

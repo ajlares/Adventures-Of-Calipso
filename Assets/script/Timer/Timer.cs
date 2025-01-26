@@ -10,6 +10,18 @@ public class Timer : MonoBehaviour
     float bestTime;
     public const string BestTimeKey = "BestTime";
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public static Timer instance;
+    private void Awake() 
+    {
+          if(instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy( this);
+        }  
+    }
     void Start()
     {
         bestTime = PlayerPrefs.GetFloat(BestTimeKey, 0f);
