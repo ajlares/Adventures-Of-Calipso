@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b9da4b3d81e60954aae67e84da41f722
+guid: 0a046bc505ff4c141a6355cc7d6419b7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7769997912108804333
-    second: Concha-Fondo_0
+      213: 2597878830671980743
+    second: Fonfo-Menu_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Concha-Fondo_0
+      name: Fonfo-Menu_0
       rect:
         serializedVersion: 2
-        x: 78
-        y: 71
-        width: 641
-        height: 670
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3175a3fe01c6b2490800000000000000
-      internalID: -7769997912108804333
+      spriteID: 7c8e5b748058d0420800000000000000
+      internalID: 2597878830671980743
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Concha-Fondo_0: -7769997912108804333
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,10 +8,11 @@ public class Timer : MonoBehaviour
     [SerializeField] TextMeshProUGUI bestTimeDisplay;
     float time;
     float bestTime;
+    public const string BestTimeKey = "BestTime";
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        bestTime = PlayerPrefs.GetFloat("BestTime", 0f);
+        bestTime = PlayerPrefs.GetFloat(BestTimeKey, 0f);
         bestTimeDisplay.text = SetTimeFormat(bestTime);
         time = 0;
         timerDisplay.text = SetTimeFormat(time);
@@ -25,7 +26,7 @@ public class Timer : MonoBehaviour
     }
 
 
-    public string SetTimeFormat(float time)
+    public static string SetTimeFormat(float time)
     {
         TimeSpan timeSpan = TimeSpan.FromSeconds(time);
 
@@ -37,7 +38,7 @@ public class Timer : MonoBehaviour
     {
         if (bestTime < time) 
         { 
-            PlayerPrefs.SetFloat("BestTime",time);
+            PlayerPrefs.SetFloat(BestTimeKey,time);
         }
     }
 }
