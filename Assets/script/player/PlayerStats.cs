@@ -11,7 +11,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] public float Speed;
     [SerializeField] public bool canTakeDamage;
     [SerializeField] private bool canDrown;
-    [SerializeField] private bool canMove;
+    [SerializeField] public  bool canMove;
     [SerializeField] private float drownDelay;
     [SerializeField] PlayRandomSound soundPlayer;
     [SerializeField] SoundContainer bubblePopSoundContainer;
@@ -32,10 +32,6 @@ public class PlayerStats : MonoBehaviour
     {
         actualOxigen = maxOxigen;
         StartCoroutine(oxigenDelay());
-    }
-    private void Update() 
-    {
-
     }
     private void UseOxigen()
     {
@@ -68,17 +64,33 @@ public class PlayerStats : MonoBehaviour
         canTakeDamage = false;;
         actualHealth--;
         UIManager.instance.updateLife();
-        gameObject.GetComponent<Animator>().SetTrigger("Damage"); 
         if(actualHealth < 1)
         {
-            // the player is death
-            Timer.instance.SaveTime();
-            Time.timeScale =0;
+            startDeath();
+        }
+        else
+        {
+            gameObject.GetComponent<Animator>().SetTrigger("Damage"); 
+
         }
     }
     public void ResetDamage()
     {
         canTakeDamage = true;  
+    }
+
+    public void startDeath()
+    {
+        Debug.Log("isdeathh");
+        gameObject.GetComponent<Animator>().SetTrigger("death"); 
+        canMove = false;
+        Timer.instance.SaveTime();
+
+    }
+    public void endGame()
+    {
+        UIManager.instance.deathPabel();
+        Time.timeScale =0;
     }
 
     IEnumerator oxigenDelay()

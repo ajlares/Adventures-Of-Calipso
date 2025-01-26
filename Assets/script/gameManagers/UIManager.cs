@@ -38,4 +38,12 @@ public class UIManager : MonoBehaviour
             }
         }
     }
+    public void pausepabel()
+    {
+
+    }
+    public void deathPabel()
+    {
+        
+    }
 }

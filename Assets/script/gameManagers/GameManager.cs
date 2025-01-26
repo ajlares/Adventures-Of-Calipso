@@ -29,9 +29,12 @@ public class GameManager : MonoBehaviour
     }
 
     private void CameraMove()
-    {
-        float movimientoX = globalSpeed * Time.deltaTime;
-        transform.Translate(movimientoX, 0, 0);
+    {   
+        if(PlayerStats.instance.canMove)
+        {
+            float movimientoX = globalSpeed * Time.deltaTime;
+            transform.Translate(movimientoX, 0, 0);
+        }
     }
     private void UpdateSpeed()
     {
