@@ -828,6 +828,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1054866d6145444481b2c8109b35007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BGImages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
