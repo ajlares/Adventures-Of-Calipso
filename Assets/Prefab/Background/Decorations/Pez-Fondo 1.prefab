@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6846119471051273949}
   - component: {fileID: 6347979860574005763}
+  - component: {fileID: -1810564333817250404}
   m_Layer: 0
   m_Name: Pez-Fondo 1
   m_TagString: Decoration
@@ -87,3 +88,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-1810564333817250404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226680415520508205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d109c022b025cc349a3f07db888436c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSpeed: 1
+  maxSpeed: 5
