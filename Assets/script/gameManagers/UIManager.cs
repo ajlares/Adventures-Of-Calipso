@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    [SerializeField] private List<Image> BGImages;
+    [SerializeField] private List<GameObject> BGImages;
     public static UIManager instance;
     private void Awake() 
     {
@@ -21,7 +21,8 @@ public class UIManager : MonoBehaviour
     public void updateLife()
     {
         int index = PlayerStats.instance.maxHealth - PlayerStats.instance.actualHealth;
-        BGImages[index-1].enabled = true;
+        Debug.Log(index);
+        BGImages[index-1].SetActive(true);
     }
     public void updateOxigen()
     {
