@@ -9,6 +9,7 @@ TagManager:
   - Obstacle
   - border
   - bubleBorder
+  - Decoration
   layers:
   - Default
   - TransparentFX

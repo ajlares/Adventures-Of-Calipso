@@ -6,6 +6,6 @@ public class FallingStelactite : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(Time.deltaTime * speed * Vector2.up);
+        transform.Translate(Time.deltaTime * speed * Vector2.down);
     }
 }
