@@ -761,9 +761,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BGImages:
-  - {fileID: 783932317221077530}
-  - {fileID: 9158107014331656395}
-  - {fileID: 9193071357405587520}
+  - {fileID: 4530212540117941302}
+  - {fileID: 4636780532599794460}
+  - {fileID: 2419538916436049955}
 --- !u!1 &7134972012073112671
 GameObject:
   m_ObjectHideFlags: 0
