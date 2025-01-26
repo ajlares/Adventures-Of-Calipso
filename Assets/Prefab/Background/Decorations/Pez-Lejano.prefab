@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4856806078865362644}
   - component: {fileID: 3681974445596044609}
+  - component: {fileID: 2832929852140894480}
   m_Layer: 0
   m_Name: Pez-Lejano
   m_TagString: Decoration
@@ -87,3 +88,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2832929852140894480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3165240549859241335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d109c022b025cc349a3f07db888436c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSpeed: 1
+  maxSpeed: 5

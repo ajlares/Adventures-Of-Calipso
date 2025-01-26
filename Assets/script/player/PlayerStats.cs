@@ -13,6 +13,8 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private bool canDrown;
     [SerializeField] private bool canMove;
     [SerializeField] private float drownDelay;
+    [SerializeField] PlayRandomSound soundPlayer;
+    [SerializeField] SoundContainer bubblePopSoundContainer;
 
     public static PlayerStats instance;
     private void Awake() 
@@ -38,6 +40,7 @@ public class PlayerStats : MonoBehaviour
     private void UseOxigen()
     {
         actualOxigen--;
+        soundPlayer.PlaySound(bubblePopSoundContainer);
         if(actualOxigen < 0)
         {
             actualOxigen = 0;

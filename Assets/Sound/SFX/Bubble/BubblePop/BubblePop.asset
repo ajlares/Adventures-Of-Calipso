@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8879e4056f1d39248aaa0443da4a56aa, type: 3}
+  m_Name: BubblePop
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: c0fbaa06a4d9c3a408547b4ee046de7b, type: 3}
+  - {fileID: 8300000, guid: 9564f8d71585248438344a123a3a0528, type: 3}
+  - {fileID: 8300000, guid: 1561f24465c89d64a82fee8965ac92bf, type: 3}
+  - {fileID: 8300000, guid: 984cfe00eb2afc845a3fe80754748583, type: 3}
+  - {fileID: 8300000, guid: 35da3d6edbcdf8d4e9783aec23eeff26, type: 3}
+  - {fileID: 8300000, guid: e9ea4beb0de4bc749b9da6c1194ddacb, type: 3}
+  - {fileID: 8300000, guid: 054c329a7e8729048bac86fdc50a94ce, type: 3}

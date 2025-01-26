@@ -54,6 +54,7 @@ MonoBehaviour:
   maxSpeed: 10
   enemies:
   - {fileID: 8886733180652180510, guid: 0d4f3d87eaaf3ff4da624ad6b8ebe859, type: 3}
+  - {fileID: 8886733180652180510, guid: 2292cd68e488add449dffaba5aadde7f, type: 3}
 --- !u!1 &5806085495595583280
 GameObject:
   m_ObjectHideFlags: 0
