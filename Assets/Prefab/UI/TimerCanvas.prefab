@@ -567,7 +567,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0025024414, y: 0}
+  m_AnchoredPosition: {x: 0.0024414062, y: 0}
   m_SizeDelta: {x: -2, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &5958001554387779065
@@ -990,11 +990,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BGImages:
-  - {fileID: 7578640238784851656}
-  - {fileID: 2218475550907282108}
-  - {fileID: 2366159186391848228}
-  - {fileID: 2942220218624278842}
-  - {fileID: 546490914812000297}
+  - {fileID: 6071587384339058012}
+  - {fileID: 5958001554387779065}
+  - {fileID: 4530212540117941302}
+  - {fileID: 4636780532599794460}
+  - {fileID: 2419538916436049955}
 --- !u!1 &7134972012073112671
 GameObject:
   m_ObjectHideFlags: 0

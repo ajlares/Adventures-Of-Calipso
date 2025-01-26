@@ -124,6 +124,8 @@ MonoBehaviour:
   useOxigenTime: 2
   Speed: 3
   canTakeDamage: 1
+  canDrown: 0
+  drownDelay: 0
 --- !u!61 &2012929134116019091
 BoxCollider2D:
   m_ObjectHideFlags: 0
