@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    [SerializeField] float maxHealth;
-    [SerializeField] float actualHealth;
+    [SerializeField] public int maxHealth;
+    [SerializeField] public int actualHealth;
     [SerializeField] float maxOxigen;
     [SerializeField] float actualOxigen;
     [SerializeField] float useOxigenTime;
