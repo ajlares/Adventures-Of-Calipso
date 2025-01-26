@@ -82,6 +82,7 @@ MonoBehaviour:
   - {fileID: 7876110260519233697, guid: 85ff00a73fd80c941898ec7f4106275c, type: 3}
   - {fileID: 7611696583369645287, guid: b490278c136d9cc448b2fe80d4508d4f, type: 3}
   - {fileID: 6127592690886436166, guid: b317609cba91e1346926f495b6f8f06b, type: 3}
+  - {fileID: 6970201044437636597, guid: aa873465c9a86ed4b9efded724a593be, type: 3}
   minPosition: {fileID: 1131984171506194170}
   maxPosition: {fileID: 693424700279264475}
   minTime: 1

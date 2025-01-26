@@ -51,6 +51,7 @@ MonoBehaviour:
   - {fileID: 1712367768831074268, guid: 3a64115555eeea04d81c1ba49c091ff2, type: 3}
   - {fileID: 5025291719759179561, guid: 170221f724272cd48be864c7fa80caef, type: 3}
   - {fileID: 1955302473651777948, guid: 11c0204ea0d34b548bb9b0f0e356ddab, type: 3}
+  - {fileID: 798782921094593622, guid: a0d0ef3d70eb2e947a4c8cd0b47faa5e, type: 3}
   minPosition: {fileID: 1190762443282589536}
   maxPosition: {fileID: 5133757325903975478}
   minTime: 1
