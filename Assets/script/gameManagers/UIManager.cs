@@ -21,7 +21,6 @@ public class UIManager : MonoBehaviour
     public void updateLife()
     {
         int index = PlayerStats.instance.maxHealth - PlayerStats.instance.actualHealth;
-        Debug.Log(index);
         BGImages[index-1].SetActive(true);
     }
     public void updateOxigen()

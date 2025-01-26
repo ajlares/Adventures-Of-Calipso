@@ -119,11 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &198848722 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4530212540117941302, guid: c75598da84ba3284d8f2235d09029b55, type: 3}
-  m_PrefabInstance: {fileID: 2147289439}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,11 +467,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 10}
   m_EdgeRadius: 0
---- !u!1 &1089484131 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4636780532599794460, guid: c75598da84ba3284d8f2235d09029b55, type: 3}
-  m_PrefabInstance: {fileID: 2147289439}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1454617534
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,11 +602,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d4f3d87eaaf3ff4da624ad6b8ebe859, type: 3}
---- !u!1 &2146124947 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2419538916436049955, guid: c75598da84ba3284d8f2235d09029b55, type: 3}
-  m_PrefabInstance: {fileID: 2147289439}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2147289439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -625,14 +610,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2366159186391848228, guid: c75598da84ba3284d8f2235d09029b55, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2419538916436049955, guid: c75598da84ba3284d8f2235d09029b55, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2730138782497236112, guid: c75598da84ba3284d8f2235d09029b55, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -713,26 +690,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4530212540117941302, guid: c75598da84ba3284d8f2235d09029b55, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6371074931929719083, guid: c75598da84ba3284d8f2235d09029b55, type: 3}
       propertyPath: m_Name
       value: TimerCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 8515821894123934955, guid: c75598da84ba3284d8f2235d09029b55, type: 3}
-      propertyPath: 'BGImages.Array.data[0]'
-      value: 
-      objectReference: {fileID: 198848722}
-    - target: {fileID: 8515821894123934955, guid: c75598da84ba3284d8f2235d09029b55, type: 3}
-      propertyPath: 'BGImages.Array.data[1]'
-      value: 
-      objectReference: {fileID: 1089484131}
-    - target: {fileID: 8515821894123934955, guid: c75598da84ba3284d8f2235d09029b55, type: 3}
-      propertyPath: 'BGImages.Array.data[2]'
-      value: 
-      objectReference: {fileID: 2146124947}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
