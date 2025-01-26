@@ -3,8 +3,8 @@ using UnityEngine;
 public class StalactiteTrigger : MonoBehaviour
 {
     [SerializeField] GameObject stalactite;
-    [SerializeField]float minSpeed;
-    [SerializeField]float maxSpeed;
+    public float minSpeed;
+    public float maxSpeed;
     bool hasFallen = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
