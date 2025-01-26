@@ -81,7 +81,6 @@ public class PlayerStats : MonoBehaviour
 
     public void startDeath()
     {
-        Debug.Log("isdeathh");
         gameObject.GetComponent<Animator>().SetTrigger("death"); 
         canMove = false;
         Timer.instance.SaveTime();
@@ -103,6 +102,4 @@ public class PlayerStats : MonoBehaviour
         yield return new WaitForSeconds(drownDelay);
         canDrown = true;
     }
-
-
 }
